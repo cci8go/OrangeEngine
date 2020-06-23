@@ -31,7 +31,11 @@
 
 ### 上传CocoaPods
      
-    pod spec lint OrangeEngineFramework.podspec
+    pod spec lint OrangeEngineFramework.podspec --allow-warnings
+    pod trunk push OrangeEngineFramework.podspec --allow-warnings
+
+
+    https://cocoapods.org/pods/OrangeEngineFramework
 
 
 ### 上传问题
