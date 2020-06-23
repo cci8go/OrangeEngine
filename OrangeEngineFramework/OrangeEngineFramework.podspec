@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                        目前支持的功能有:
                    DESC
 
   spec.homepage     = "https://github.com/cci8go/OrangeEngine.git"
@@ -90,10 +91,11 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #当前git仓库地址路径
+  spec.source_files  = "OrangeEngineFramework/OrangeEngineFramework/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = 'OrangeEngineFramework/OrangeEngineFramework.h'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -117,7 +119,9 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks = "AFNetworking"
+  spec.frameworks   = 'UIKit','Foundation','AFNetworking'
+  #依赖库
+
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"

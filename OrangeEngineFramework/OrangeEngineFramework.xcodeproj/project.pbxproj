@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E2144ED024A1AE9F00E77E82 /* OrangeEngineFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E2144ECE24A1AE9F00E77E82 /* OrangeEngineFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2144F0324A1AF6A00E77E82 /* OrangeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2144F0224A1AF6A00E77E82 /* OrangeHomeView.swift */; };
-		E2144F0524A1B40D00E77E82 /* NetTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2144F0424A1B40D00E77E82 /* NetTools.swift */; };
 		E2144F0924A1CDE500E77E82 /* OrangeEngineFrameworkbundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2144F0824A1CDE500E77E82 /* OrangeEngineFrameworkbundle.bundle */; };
 		FA462A5B768675F1A9FDF5C1 /* Pods_OrangeEngineFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8A0CB83E35673B1CFF3F6D /* Pods_OrangeEngineFramework.framework */; };
 /* End PBXBuildFile section */
@@ -21,7 +20,6 @@
 		E2144ECE24A1AE9F00E77E82 /* OrangeEngineFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrangeEngineFramework.h; sourceTree = "<group>"; };
 		E2144ECF24A1AE9F00E77E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2144F0224A1AF6A00E77E82 /* OrangeHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeHomeView.swift; sourceTree = "<group>"; };
-		E2144F0424A1B40D00E77E82 /* NetTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetTools.swift; sourceTree = "<group>"; };
 		E2144F0824A1CDE500E77E82 /* OrangeEngineFrameworkbundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OrangeEngineFrameworkbundle.bundle; sourceTree = "<group>"; };
 		FB8A0CB83E35673B1CFF3F6D /* Pods_OrangeEngineFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrangeEngineFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,7 +79,6 @@
 				E2144ECE24A1AE9F00E77E82 /* OrangeEngineFramework.h */,
 				E2144ECF24A1AE9F00E77E82 /* Info.plist */,
 				E2144F0224A1AF6A00E77E82 /* OrangeHomeView.swift */,
-				E2144F0424A1B40D00E77E82 /* NetTools.swift */,
 			);
 			path = OrangeEngineFramework;
 			sourceTree = "<group>";
@@ -216,7 +213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2144F0324A1AF6A00E77E82 /* OrangeHomeView.swift in Sources */,
-				E2144F0524A1B40D00E77E82 /* NetTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

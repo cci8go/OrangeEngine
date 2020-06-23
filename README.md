@@ -16,6 +16,19 @@
     创建.podspec文件
     pod spec create OrangeEngineFramework
 
+
+###  添加git tag
+
+    git add --all
+	git commit -m'update framework'
+	git push
+	git tag “1.0.0”
+	git push origin --tags
+
+	查看tag
+	git tag
+
+
 ### 上传CocoaPods
      
     pod spec lint OrangeEngineFramework.podspec

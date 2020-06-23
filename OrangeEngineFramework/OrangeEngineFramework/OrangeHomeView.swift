@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 
 // MARK: 自定义的一个首页视图
 public class OrangeHomeView: UIView {
@@ -15,12 +15,7 @@ public class OrangeHomeView: UIView {
     override public init(frame: CGRect) {
         super.init(frame: frame)
         setupUI()
-        layout()
-        
-        HWNetworkManager.shared.request(requestType: HWHTTPMethod.GET, url: "www.baidu.com", parameters: [:]) { ([String : Any]?, Error) in
-            
-        }
-        
+        layout()        
     }
     
     required public init?(coder aDecoder: NSCoder) {

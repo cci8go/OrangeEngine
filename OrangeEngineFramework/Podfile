@@ -9,5 +9,5 @@ target 'OrangeEngineFramework' do
 
   # Pods for OrangeEngineFramework
   
-  pod 'AFNetworking'
+#  pod 'AFNetworking'
 end
