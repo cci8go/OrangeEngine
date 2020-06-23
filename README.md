@@ -16,3 +16,8 @@
     创建.podspec文件
     pod spec create OrangeEngineFramework
 
+### 上传CocoaPods
+     
+    pod spec lint OrangeEngineFramework.podspec
+
+    
