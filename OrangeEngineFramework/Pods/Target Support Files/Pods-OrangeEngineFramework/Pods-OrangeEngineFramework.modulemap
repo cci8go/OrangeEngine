@@ -1,0 +1,6 @@
+framework module Pods_OrangeEngineFramework {
+  umbrella header "Pods-OrangeEngineFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
