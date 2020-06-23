@@ -10,6 +10,7 @@
 		E2144ED024A1AE9F00E77E82 /* OrangeEngineFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E2144ECE24A1AE9F00E77E82 /* OrangeEngineFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2144F0324A1AF6A00E77E82 /* OrangeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2144F0224A1AF6A00E77E82 /* OrangeHomeView.swift */; };
 		E2144F0524A1B40D00E77E82 /* NetTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2144F0424A1B40D00E77E82 /* NetTools.swift */; };
+		E2144F0924A1CDE500E77E82 /* OrangeEngineFrameworkbundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2144F0824A1CDE500E77E82 /* OrangeEngineFrameworkbundle.bundle */; };
 		FA462A5B768675F1A9FDF5C1 /* Pods_OrangeEngineFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8A0CB83E35673B1CFF3F6D /* Pods_OrangeEngineFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		E2144ECF24A1AE9F00E77E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2144F0224A1AF6A00E77E82 /* OrangeHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeHomeView.swift; sourceTree = "<group>"; };
 		E2144F0424A1B40D00E77E82 /* NetTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetTools.swift; sourceTree = "<group>"; };
+		E2144F0824A1CDE500E77E82 /* OrangeEngineFrameworkbundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OrangeEngineFrameworkbundle.bundle; sourceTree = "<group>"; };
 		FB8A0CB83E35673B1CFF3F6D /* Pods_OrangeEngineFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrangeEngineFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,12 +76,37 @@
 		E2144ECD24A1AE9F00E77E82 /* OrangeEngineFramework */ = {
 			isa = PBXGroup;
 			children = (
+				E2144F0724A1CD4D00E77E82 /* src */,
+				E2144F0624A1CD4800E77E82 /* res */,
 				E2144ECE24A1AE9F00E77E82 /* OrangeEngineFramework.h */,
 				E2144ECF24A1AE9F00E77E82 /* Info.plist */,
 				E2144F0224A1AF6A00E77E82 /* OrangeHomeView.swift */,
 				E2144F0424A1B40D00E77E82 /* NetTools.swift */,
 			);
 			path = OrangeEngineFramework;
+			sourceTree = "<group>";
+		};
+		E2144F0624A1CD4800E77E82 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				E2144F0824A1CDE500E77E82 /* OrangeEngineFrameworkbundle.bundle */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		E2144F0724A1CD4D00E77E82 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E2144F0A24A1D5E400E77E82 /* net */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		E2144F0A24A1D5E400E77E82 /* net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = net;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2144F0924A1CDE500E77E82 /* OrangeEngineFrameworkbundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +352,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -335,6 +364,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeEngineFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -351,6 +381,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -362,6 +393,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = orange.OrangeEngineFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
