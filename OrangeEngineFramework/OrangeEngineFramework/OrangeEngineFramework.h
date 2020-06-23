@@ -6,7 +6,8 @@
 //  Copyright © 2020 王成诚. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
+import UIKit
 
 //! Project version number for OrangeEngineFramework.
 FOUNDATION_EXPORT double OrangeEngineFrameworkVersionNumber;

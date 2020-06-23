@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "OrangeEngineFramework/OrangeEngineFramework/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = 'OrangeEngineFramework/OrangeEngineFramework.h'
+  spec.public_header_files = 'OrangeEngineFramework/OrangeEngineFramework/OrangeEngineFramework.h'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -119,7 +119,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  spec.frameworks   = 'UIKit','Foundation','AFNetworking'
+  spec.frameworks   = 'UIKit'
   #依赖库
 
 
