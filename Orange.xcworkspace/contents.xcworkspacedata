@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:OrangeEngineFramework/Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OrangeEngineFramework/OrangeEngineFramework.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OrangeEngineTestDemo/OrangeEngineTestDemo.xcodeproj">
+   </FileRef>
+</Workspace>
