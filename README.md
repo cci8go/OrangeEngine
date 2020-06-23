@@ -46,4 +46,7 @@
     s.platform = :ios
     s.framework = "UIKit"
 
-    
+
+### 使用模版创建
+   
+    pod lib create OrangeEngineFramework
