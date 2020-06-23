@@ -33,4 +33,12 @@
      
     pod spec lint OrangeEngineFramework.podspec
 
+
+### 上传问题
+    
+    * 'UIKit/UIKit .h' file not found
+    解决方式
+    s.platform = :ios
+    s.framework = "UIKit"
+
     

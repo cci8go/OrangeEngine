@@ -17,7 +17,11 @@ Pod::Spec.new do |spec|
 
   spec.name         = "OrangeEngineFramework"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of OrangeEngineFramework."
+  spec.summary      = "A short description of OrangeEngineFramework.
+  A short description of OrangeEngineFramework.A short description of OrangeEngineFramework.
+  A short description of OrangeEngineFramework.
+  A short description of OrangeEngineFramework.
+  "
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +29,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                        目前支持的功能有:
+                        目前支持的功能有:
+                        目前支持的功能有:
+                        目前支持的功能有:
                         目前支持的功能有:
                    DESC
 
@@ -64,7 +72,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+  spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
