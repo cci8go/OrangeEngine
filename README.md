@@ -23,12 +23,15 @@
     git add --all
 	git commit -m'update framework'
 	git push
-	git tag “1.0.0”
+	git tag 1.0.0
 	git push origin --tags
 
 	查看tag
 	git tag
-
+	删除tag
+	git tag -d “1.0.0”
+	删除远程tag
+	git push origin :refs/tags/"1.0.0"
 
 ### 上传CocoaPods
      
