@@ -1,6 +1,7 @@
 ### gem sources -l #(查看当前ruby的源)
 
 
+### https://cocoapods.org/
 
 ### 创建cocoapods trunk账户
 
